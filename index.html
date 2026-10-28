@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WeatherX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo2.svg" alt="">
+<div class="app">
+  <h2 hidden>Enter a city name</h2>
+  <form onsubmit="getWeather(event)">
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <br>
+    <button type="submit">Search</button>
+  </form>
+  <div class="weather" id="weatherResult"></div>
+</div>
+  </div>
+</body>
+</html>
